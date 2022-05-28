@@ -39,3 +39,12 @@ where price < any(select min(price) from book group by author )
 ; 
 ```
 
+### Courses:
+- Author's course on testing by Vadim Ksendzov
+- Author's course of English "YesToday" by Belousova A.
+- RS Schools Course "JavaScript/Front-end.Stage 0" (in progress)
+- Interactive SQL Trainer (in progress)
+
+
+
+
