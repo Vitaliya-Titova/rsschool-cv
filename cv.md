@@ -29,3 +29,13 @@ I've been working as a QA since 2021. Skilled at web manual testing. Now I am pl
 * Ability to work in a team and independently
 * Eagerness to Learn
 * Ability to work in multitasking mode and strict deadlines
+
+### Code example:
+Display information about books (author, title, high price) whose price is less than the lowest price calculated for each author.
+```
+select author, title, price
+from book
+where price < any(select min(price) from book group by author )
+; 
+```
+
