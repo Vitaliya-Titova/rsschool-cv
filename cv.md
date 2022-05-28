@@ -7,7 +7,7 @@
 - **Location:** Minsk, Belarus
 - **Phone:** +37529-2175385
 - **Mail:** titovavitaliy@gmail.com
-- **LinkedIn:** [https://www.linkedin.com/in/vitaliya-titova](vitaliya-titova)
+- **LinkedIn:** [https://www.linkedin.com/in/vitaliya-titova][vitaliya-titova]
 
 ### About me
 I've been working as a QA since 2021. Skilled at web manual testing. Now I am planning to pass this course in order to improve my skills in HTML, CSS, JS.
@@ -50,5 +50,5 @@ where price < any(select min(price) from book group by author)
 
 ### Language proficiency:
 - English : intermediate
-- Belorussian/Russian: native
+- Belarusian/Russian: native
 - Polish : basic
