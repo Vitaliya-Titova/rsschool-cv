@@ -2,11 +2,12 @@
 # **Vitaliya Titova**
 
 ## **Manual QA Engineer**
----
+
 ### Contact Info:
 - **Location:** Minsk, Belarus
 - **Phone:** +37529-2175385
 - **Mail:** titovavitaliy@gmail.com
+- **LinkedIn:** [https://www.linkedin.com/in/vitaliya-titova](vitaliya-titova)
 
 ### About me
 I've been working as a QA since 2021. Skilled at web manual testing. Now I am planning to pass this course in order to improve my skills in HTML, CSS, JS.
@@ -33,9 +34,11 @@ I've been working as a QA since 2021. Skilled at web manual testing. Now I am pl
 ### Code example:
 Display information about books (author, title, high price) whose price is less than the lowest price calculated for each author.
 ```
-select author, title, price
+select author
+, title
+, price
 from book
-where price < any(select min(price) from book group by author )
+where price < any(select min(price) from book group by author)
 ; 
 ```
 
@@ -45,9 +48,7 @@ where price < any(select min(price) from book group by author )
 - RS Schools Course "JavaScript/Front-end.Stage 0" (in progress)
 - Interactive SQL Trainer (in progress)
 
-### LANGUAGE PROFICIENCE:
+### Language proficiency:
 - English : intermediate
 - Belorussian/Russian: native
 - Polish : basic
-
-
