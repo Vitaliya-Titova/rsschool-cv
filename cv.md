@@ -45,6 +45,9 @@ where price < any(select min(price) from book group by author )
 - RS Schools Course "JavaScript/Front-end.Stage 0" (in progress)
 - Interactive SQL Trainer (in progress)
 
-
+### LANGUAGE PROFICIENCE:
+- English : intermediate
+- Belorussian/Russian: native
+- Polish : basic
 
 
