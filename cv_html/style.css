@@ -1,0 +1,33 @@
+html {
+    scroll-behavior: smooth;
+ }
+ 
+ header {
+    background: url(img/Header.jpg) no-repeat center top / cover;
+    height: auto;
+ }
+ 
+ body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+ }
+
+ .container {
+    width: 1000px;
+    margin:0 auto;
+ } 
+
+ div {
+    box-sizing: border-box;
+ }
+
+ h1 {
+   color: #950847;
+}
+
+.line_title {
+   border: none;
+    background-color: white;
+    height: 5px;
+}
