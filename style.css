@@ -23,11 +23,74 @@ html {
  }
 
  h1 {
-   color: #950847;
+   color: #e0e4ef;
+}
+h3 {
+   color: #170c89;
+   text-transform: uppercase;
+   margin-top: 5px;
+}
+.contact_info {
+   color: #170c89;
+   font-size: 18px;
+   font-family: Times, Times New Roman, serif;
+   text-decoration: none;
+   background-color: aliceblue;
+   border: 4mm ridge rgba(88, 97, 204, 0.6);
+   width: 480px;
+   height: 250px;
+   padding: 10px;
+   padding-right: 5px;
+   line-height: 1.5;
+   margin-top: 60px; 
+}
+.contact_info li a {
+   text-decoration: none;
+}
+
+.avatar_photo {
+   height: 250px;
+}  
+nav {
+   float: right;
+   margin-top: 40px;
+ 
+}
+
+.menu {
+   padding: 0;
+   margin: 0;
+   display: block;
+   list-style-type: none;
+}
+
+.menu li {
+   float: left;
+   margin-right: 35px;
+}
+
+.menu li a {
+   color: #170c89;
+   font-weight: bold;
+   text-decoration: none;
+   text-transform: uppercase;
+}
+
+.char-info {
+   width: 250px;
+   text-align: center;
+   margin-right: 200px;
+   margin-top: -15px;
+}
+
+.personal-info {
+   display: flex;
+   width: 1000px;
 }
 
 .line_title {
    border: none;
-    background-color: white;
+    background-color: rgb(91, 216, 235); 
     height: 5px;
+    width: 250px;
 }
