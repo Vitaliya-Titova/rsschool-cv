@@ -54,7 +54,6 @@ h3 {
 nav {
    float: right;
    margin-top: 40px;
- 
 }
 
 .menu {
@@ -95,10 +94,22 @@ nav {
     width: 250px;
 }
 
+.wrapper {
+   display:flex;
+}
+.column {
+   margin-right: 10px; 
+   padding: 0px;
+   width: 500px;
+}
+
 .internal {
    font-size: 16px;
    text-align: justify;
    line-height: 1.5;
    margin-left: 15px;
    font-family:  Arial, Helvetica, sans-serif; 
+}
+.internal ul li {
+ line-height: 2;
 }
