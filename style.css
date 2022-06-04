@@ -80,6 +80,8 @@ nav {
    font-weight: bold;   
    background: #170c89;;
    text-transform: uppercase;
+   padding: 10px;
+   transition: 0.3s;
   }
 
 .char-info {
@@ -125,3 +127,18 @@ nav {
 .internal ul li {
  line-height: 2;
 }
+
+.ingredient a{
+text-decoration: none;
+font-style:oblique;
+}
+
+.ingredient a:hover{ 
+   color: #170c89;
+   font-size: 1.1em; 
+   font-weight: bold;
+   font-style:normal;
+   text-decoration: underline;
+   text-decoration-color:#0c064c;
+background-color: rgb(230, 238, 246);;
+transition: 0.4s;}
