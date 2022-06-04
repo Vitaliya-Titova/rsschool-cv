@@ -93,7 +93,12 @@ nav {
     height: 5px;
     width: 250px;
 }
-
+.line_body {
+   
+   background-color:#085e21;
+   height: 7px;
+   width: 1000px;
+}
 .wrapper {
    display:flex;
 }
