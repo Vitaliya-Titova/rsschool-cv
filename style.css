@@ -75,6 +75,13 @@ nav {
    text-transform: uppercase;
 }
 
+.menu li a:hover {
+   color:  aliceblue; 
+   font-weight: bold;   
+   background: #170c89;;
+   text-transform: uppercase;
+  }
+
 .char-info {
    width: 250px;
    text-align: center;
@@ -96,7 +103,7 @@ nav {
 .line_body {
    
    background-color:#085e21;
-   height: 7px;
+   height: 8px;
    width: 1000px;
 }
 .wrapper {
