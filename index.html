@@ -89,10 +89,27 @@
                     </ul>
                     </div>
             </section>
-            
-        </div>
+            </div>
         <hr class= "line_body"> 
-
+        <div class="wrapper">
+            <section class="column">
+                <div class="internal">
+                    <h3 id="t3"><center>Code Example (MySQL)</center></h3>
+                        Display information about books (author, title, high price)
+                        whose price is less than the lowest price calculated for each author.
+                </div>
+            <div> 
+                <pre class="codeblock"> <code>
+        SELECT author
+        , title
+        , price
+        FROM book
+        WHERE price < any(select min(price) from book group by author)
+        ; 
+                </code>
+                </pre>
+            </div>           
+            </section>
         </main>
         <footer> 
 

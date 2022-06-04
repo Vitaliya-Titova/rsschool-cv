@@ -142,3 +142,9 @@ font-style:oblique;
    text-decoration-color:#0c064c;
 background-color: rgb(230, 238, 246);;
 transition: 0.4s;}
+
+.codeblock {
+   font-size: auto;
+   background: aliceblue;
+
+}
