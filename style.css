@@ -146,5 +146,42 @@ transition: 0.4s;}
 .codeblock {
    font-size: auto;
    background: aliceblue;
+}
+.circle {
+   counter-reset: li; 
+   list-style: none; 
+   padding: 0;
+   margin-left: 20px;
+   margin: 0px,0, 0, 10px;
+}
 
+.circle a {
+      position: relative;
+      display: block;
+      padding: .4em .4em .4em 2em;
+      margin: .5em 0;
+      background:aliceblue;
+      color: #444;
+      text-decoration: none;
+      border-radius: .3em;
+      transition: .3s ease-out;
+      border: 1mm ridge rgba(88, 97, 204, 0.6);
+}
+
+.circle a:before {
+content: counter(li);
+counter-increment: li;
+position: absolute;
+left: -1.3em;
+top: 50%;
+margin-top: -1em;
+background: #a96bb5;
+height: 2em;
+width: 2em;
+line-height: 2em;
+border: #085e21;
+text-align: center;
+font-weight: bold;
+border-radius: 2em;
+transition: all .3s ease-out;
 }

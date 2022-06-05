@@ -100,12 +100,12 @@
                 </div>
             <div> 
                 <pre class="codeblock"> <code>
-        SELECT author
-        , title
-        , price
-        FROM book
-        WHERE price < any(select min(price) from book group by author)
-        ; 
+    SELECT author
+    ,title
+    ,price
+    FROM book
+    WHERE price < any(select min(price) from book group by author)
+    ; 
                 </code>
                 </pre>
             </div>           
