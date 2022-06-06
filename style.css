@@ -188,8 +188,8 @@ transition: 0.4s;}
 
 .points {
    list-style: none;
-   margin-top: 10px;   
    font-family: Arial, Helvetica, sans-serif;  
+   font-size: 17px;
 }
 
 .points li {
@@ -203,8 +203,14 @@ transition: 0.4s;}
 .points li p {
    font-family: Arial, Helvetica, sans-serif;
 }
+
+.points li a {
+   font-family: Arial, Helvetica, sans-serif;
+   text-decoration: none;
+   color: #444;
+}
+
 .points li:before {
-   font-family: Arial, Helvetica, sans-serif; 
    position: absolute;
    width: 7px;
    height: 7px;
@@ -223,5 +229,4 @@ transition: 0.4s;}
    content: "";
    left: 3px;
    top: 48px;
-   font-family: Arial, Helvetica, sans-serif; 
 }
