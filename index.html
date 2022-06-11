@@ -9,21 +9,156 @@
     </head>
     <body>
         <header>
-            <div class="container">
-                <h1> Vitaliya Titova </h1>
-                <hr class="line_title"> 
-                <h2> Manual QA Engineer </h2>
-            </div>
-        
-        
+                <div class="container">
+                    <nav>
+                        <ul class="menu">
+                            <li> <a href="#t1">about me</a></li>
+                            <li> <a href="#t2">skills</a></li>
+                            <li> <a href="#t3"> projects</a></li>
+                            <li> <a href="#t4">education</a></li>
+                        </ul>
+                    </nav>
+                    <div class="personal-info">
+                        <div class="char-info"> 
+                            <img class=avatar_photo src="img/avatar.jpg" alt="Photo">
+                            <h1> Vitaliya Titova </h1>
+                            <hr class="line_title"> 
+                            <h2> Manual QA Engineer </h2>
+                        </div>
+                        <div class="contact_info">
+                            <h3>CONTACT INFORMATION:</h3>
+                            <ul>
+                                <li> Contact number: ☎+37529-2175385 </li>
+                                <li> <a href="https://github.com/Vitaliya-Titova"> Github profile: Vitaliya-Titova </a></li>
+                                <li> Email: titovavitaliy@gmail.com </li>
+                                <li> <a href="https://www.linkedin.com/in/vitaliyatitova"> LinkedIn </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
         </header>
         <main class="container"> 
-            
-        </main>
-        <footer> 
+            <div class="internal">
+                <h3 class="info-title" id="t1">About me </h3>
+                <p>Hi! My name is Vitaliya Titova.</p>
+                <p>I've been working as a QA since 2021.
+                Skilled at web manual testing.</p>
+                <p>Now I am planning to pass RS Schools Course 
+                <span class="ingredient"><a href="https://wearecommunity.io/events/js-stage0-rs-2022q2">"JavaScript/Front-end.Stage 0"</a></span> in order to 
+                improve my skills in HTML5, CSS3, JavaScript.</p> 
+            </div>
+            <hr class= "line_body"> 
+            <div class="wrapper">
+                <section class="column">
+                    <div class="internal">
+                        <h3 id="t2">Skills</h3>
+                        <ul>
+                            <li> SQL, MySQL, OracleSQL, PostgreSQL </li>
+                            <li> Git, Github, Gitbush </li>
+                            <li>HTML5, CSS3 </li>
+                            <li>Terminal Linux </li>
+                            <li> Devtools </li>
+                            <li> Charles, Fiddler, Jmeter </li>
+                            <li> ADB </li>
+                            <li> Postman </li>
+                            <li> Grafana(Loki) </li>
+                            <li> Jira </li>
+                            <li> JavaScript (in progress) </li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="column">  
+                    <div class="internal">
+                        <h3>Soft Skills</h3>
+                        <ul>
+                            <li> Ability to work with documentation / requirements </li>
+                            <li> Responsibility, punctuality, communication </li>
+                            <li> Ability to work in a team and independently </li>
+                            <li> Eagerness to learn </li>
+                            <li> Ability to work in multitasking mode and strict deadlines </li>
+                        </ul>
+                        <h3>language proficiency</h3>
+                        <ul>
+                            <li><b>English:</b>  intermediate </li>
+                            <li><b>Belarusian/Russian:</b>  native </li>
+                            <li><b>Polish :</b>  basic </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+            <hr class= "line_body"> 
+            <div class="wrapper">
+                <section class="column">
+                    <div class="internal">
+                        <h3>Projects</h3>
+                        <p> At the moment I have no projects, but during this course 
+                            I plan to do the following projects: </p>
+                        <ol class="circle">
+                            <li><a href="https://vitaliya-titova.github.io/rsschool-cv">CV.Porfolio</a></li>
+                            <li><a href="#">Travel</a></li>
+                            <li><a href="#">Momentum</a></li>
+                        </ol>
+                    </div>
+                </section>
+                <section class="column">
+                    <div class="internal">
+                        <h3 id="t3">Code Example (MySQL)</h3>
+                            Display information about books (author, title, high price)
+                            whose price is less than the lowest price calculated for each author.
+                    </div>
+                    <div> 
+                        <pre class="codeblock"> <code>
 
-        </footer>
-   
+    SELECT author
+    ,title
+    ,price
+    FROM book
+    WHERE price &lt; any(select min(price) from book group by author)
+    ; 
+                        </code>
+                        </pre>
+                    </div>           
+                </section>
+            </div>             
+            <hr class= "line_body"> 
+            <div class="wrapper">
+                <section class="column">
+                    <div class="internal">
+                        <h3 id="t4">Education</h3>
+                        <ul class="points">
+                            <li> 2011 - 2016 
+                                <p> Belarussian National Technical University  </p>
+                                <p> "Customs affair"</p>
+                            </li>
+                            <li> 2014 - 2016
+                                <p>Belarusian State Economic University </p>
+                                <p>"Jurisprudence"</p>
+                            </li>
+                        </ul> 
+                    </div>      
+                </section>
+                <section class="column">
+                    <div class="internal">
+                        <h3>Additional Education</h3>
+                        <ul class="points">
+                            <li>
+                                <a href="https://ksendzov.com/"> Author's course on testing by Vadim Ksendzov (done)</a>
+                            </li>
+                            <li> Author's course of English "YesToday" by Belousova A.</li> 
+                            <li> RS Schools Course "JavaScript/Front-end.Stage 0" (in progress)</li>
+                            <li> Interactive SQL Trainer (in progress)</li>
+                        </ul>    
+                    </div> 
+                </section>
+            </div>  
+        </main>
+        <footer class="footer">
+            <div class="footer_container">
+                <a href="https://rs.school/js/"><img class=rss_label src="img/rs_school_js.svg" alt="Rss_label"></a>
+                <p>2022</p>
+                <a href="https://github.com/Vitaliya-Titova">My GitHub:Vitaliya-Titova</a>
+            </div>
+        </footer>     
     </body>
 </html>
 
