@@ -30,6 +30,11 @@ h3 {
    color: #170c89;
    text-transform: uppercase;
    margin-top: 5px;
+   text-align: center;
+}
+
+.info-title {
+   text-align: left;
 }
 
 .contact_info {
