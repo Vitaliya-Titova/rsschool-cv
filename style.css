@@ -140,12 +140,13 @@ font-style:oblique;
    font-style:oblique;
    text-decoration: underline;
    text-decoration-color:#0c064c;
-background-color: rgb(230, 238, 246);;
-transition: 0.4s;}
+   background-color: rgb(230, 238, 246);;
+   transition: 0.4s;}
 
 .codeblock {
    font-size: auto;
    background: aliceblue;
+   margin-left: 16px;
 }
 .circle {
    counter-reset: li; 
