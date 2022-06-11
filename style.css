@@ -1,35 +1,37 @@
 html {
-    scroll-behavior: smooth;
- }
+   scroll-behavior: smooth;
+}
  
  header {
-    background: url(img/Header.jpg) no-repeat center top / cover;
-    height: auto;
- }
+   background: url(img/Header.jpg) no-repeat center top / cover;
+   height: auto;
+}
  
  body {
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 0;
-    margin: 0;
- }
+   font-family: Arial, Helvetica, sans-serif;
+   padding: 0;
+   margin: 0;
+}
 
  .container {
-    width: 1000px;
-    margin:0 auto;
- } 
+   width: 1000px;
+   margin:0 auto;
+} 
 
  div {
-    box-sizing: border-box;
- }
+   box-sizing: border-box;
+}
 
  h1 {
    color: #e0e4ef;
 }
+
 h3 {
    color: #170c89;
    text-transform: uppercase;
    margin-top: 5px;
 }
+
 .contact_info {
    color: #170c89;
    font-size: 18px;
@@ -44,6 +46,7 @@ h3 {
    line-height: 1.5;
    margin-top: 60px; 
 }
+
 .contact_info li a {
    text-decoration: none;
 }
@@ -51,6 +54,7 @@ h3 {
 .avatar_photo {
    height: 250px;
 }  
+
 nav {
    float: right;
    margin-top: 40px;
@@ -82,7 +86,7 @@ nav {
    text-transform: uppercase;
    padding: 10px;
    transition: 0.3s;
-  }
+}
 
 .char-info {
    width: 250px;
@@ -98,19 +102,21 @@ nav {
 
 .line_title {
    border: none;
-    background-color: rgb(91, 216, 235); 
-    height: 5px;
-    width: 250px;
+   background-color: rgb(91, 216, 235); 
+   height: 5px;
+   width: 250px;
 }
+
 .line_body {
-   
    background-color:#085e21;
    height: 8px;
    width: 1000px;
 }
+
 .wrapper {
    display:flex;
 }
+
 .column {
    margin-right: 10px; 
    padding: 0px;
@@ -124,13 +130,14 @@ nav {
    margin-left: 15px;
    font-family:  Arial, Helvetica, sans-serif; 
 }
+
 .internal ul li {
- line-height: 2;
+   line-height: 2;
 }
 
 .ingredient a{
-text-decoration: none;
-font-style:oblique;
+   text-decoration: none;
+   font-style:oblique;
 }
 
 .ingredient a:hover{ 
@@ -141,13 +148,15 @@ font-style:oblique;
    text-decoration: underline;
    text-decoration-color:#0c064c;
    background-color: rgb(230, 238, 246);;
-   transition: 0.4s;}
+   transition: 0.4s;
+}
 
 .codeblock {
    font-size: auto;
    background: aliceblue;
    margin-left: 16px;
 }
+
 .circle {
    counter-reset: li; 
    list-style: none; 
@@ -242,14 +251,14 @@ font-style:oblique;
    margin: 0 auto;
 }
 
-  .footer_container{
-  width: 1000px;   
-  display: flex;
-  margin: 0 auto;
-  gap: 325px;
-  }
+.footer_container{
+   width: 1000px;   
+   display: flex;
+   margin: 0 auto;
+   gap: 325px;
+}
 
-  .footer_container a {
-     margin-top: 16px;
-     text-decoration: none;
-  }
+.footer_container a {
+   margin-top: 16px;
+   text-decoration: none;
+}
